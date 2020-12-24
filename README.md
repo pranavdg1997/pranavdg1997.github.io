@@ -1,6 +1,6 @@
-# Academic portfolio of Pierre-Louis Stenger
+# Academic portfolio of Pranav Gujarathi
 
-To website access, please click here: [https://plstenger.github.io](https://plstenger.github.io)
+To website access, please click here: [https://pranavdg1997.github.io](https://pranavdg1997.github.io)
 
 Academic portfolio website coding with inspiration from [minimal mistakes from Michael Rose](https://mmistakes.github.io/minimal-mistakes/) and [academic pages from Stuart Geiger Github](https://github.com/academicpages/academicpages.github.io).
 
