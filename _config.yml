@@ -4,11 +4,11 @@
 locale                   : "en-US"
 title                    : "Portfolio"
 title_separator          : "-"
-name                     : "Pierre-Louis STENGER"
-description              : "PostDoctoral researcher in marine biology, genomics and epigenomics. Also amateur underwater photographer"
-url                      : "https://plstenger.github.io"
+name                     : "Pranav Gujarathi"
+description              : "Masters (2021) in Data Science from Indiana University. Bachelor's in IIT Roorkee"
+url                      : "https://pranavdg1997.github.io"
 baseurl                  : "" 
-repository               : "PLStenger/plstenger.github.io"
+repository               : "pranavdg1997/pranavdg1997.github.io"
 teaser                   : "nacre.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -49,7 +49,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "@StengerPL"
+  username               : "@pdg1997"
 facebook:
   username               : 
   app_id                 :
@@ -72,13 +72,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Pierre-Louis Stenger"
-  avatar           : "submarine.png"
-  bio              : "PostDoctoral researcher in marine biology, genomics and epigenomics. Also amateur underwater photographer"
-  location         : "Nouméa, New-Caledonia"
+  name             : "Pranav Gujarathi"
+  avatar           :
+  bio              : "Masters (2021) in Data Science from Indiana University. Bachelor's in IIT Roorkee. Also *aspiring* pro gamer."
+  location         : "Bloomington, Indiana"
   employer         : 
   googlescholar    : "https://scholar.google.com/citations?user=yh9ZTtkAAAAJ&hl=fr"
-  email            : "Pierrelouis.stenger@gmail.com"
+  email            : "gujarathi.pranav@gmail.com"
   uri              : 
   bitbucket        :
   codepen          :
@@ -86,7 +86,7 @@ author:
   flickr           :
   facebook         : 
   foursquare       :
-  github           : "PLStenger"
+  github           : "pranavdg1997"
   google_plus      :
   keybase          :
   instagram        : 
@@ -95,10 +95,10 @@ author:
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : "7525273/pierre-louis-stenger"
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "@StengerPL"
+  twitter          : "@pdg1997"
   vine             :
   weibo            :
   xing             :
