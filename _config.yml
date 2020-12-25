@@ -77,7 +77,7 @@ author:
   bio              : "Masters (2021) in Data Science from Indiana University. Bachelor's in IIT Roorkee. Also *aspiring* pro gamer."
   location         : "Bloomington, Indiana"
   employer         : 
-  googlescholar    : "https://scholar.google.com/citations?user=yh9ZTtkAAAAJ&hl=fr"
+  googlescholar    :
   email            : "gujarathi.pranav@gmail.com"
   uri              : 
   bitbucket        :
@@ -200,15 +200,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _publications
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _portfolio
   - scope:
       path: ""
