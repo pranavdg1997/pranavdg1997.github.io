@@ -7,9 +7,7 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
-Curriculum vitæ up date: 12/25/2020
+Curriculum vitae up date: 12/25/2020
 
 <br/><img src='/images/Resume_Pranav_G_no_sum.jpg'>
 
