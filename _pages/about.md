@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 # Summary
-I am an MS ('21) student with advanced knowledge in Computer Science and Artificial Intelligence. I have a passion for building AI solutions and learning new technologies and concepts along the way. Apart from backend as well as developmental programming, I keep a working knowledge of Statistics, cutting-edge Deep Learning and NLP techniques. \\
-I have a total of 2 years of work experience, a year as a full time Data Scientist (industry), and another year as a Machine Learning Researcher (academia). Over the past year, I have tried to build a niche in Deep Reinforcement Learning and its applications. \\
-I believe what I bring to the table are strong technical R&D skills, along with a keen outlook towards product management and a consulting approach. I am to full time positions starting May 2021 and also for Co-ops for Spring 2021.
+I am an MS ('21) student with advanced knowledge in Computer Science and Artificial Intelligence. I have a passion for building AI solutions and learning new technologies and concepts along the way. Apart from backend as well as developmental programming, I keep a working knowledge of Statistics, cutting-edge *Deep Learning and NLP techniques*. \\
+I have a total of *2 years of work experience*, a year as a full time Data Scientist (industry), and another year as a Machine Learning Researcher (academia). Over the past year, I have tried to build a niche in Deep Reinforcement Learning and its applications. \\
+I believe what I bring to the table are strong technical R&D skills, along with a keen outlook towards product management and a consulting approach. I am open to full time positions starting May 2021 and also to Co-ops for Spring 2021.
 
 
 # Positions (Chronologically):
