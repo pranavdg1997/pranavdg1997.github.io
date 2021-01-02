@@ -23,7 +23,7 @@ I am working on using Reinforcement Learning to perform information extractive t
 This position involved creating course content slides as well as programming assignments to cover Deep Learning from basics to advanced applications in Bioinformatics. Apart from course content, I also assissted with migrating older repositories of DL applications based on deprecated tools to more modern frameworks.
 
 ## Research Assistant - Big Data and Quantitave trading (January 2020 - May 2020)
-Working under [Professor Jeff McMullin](https://kelley.iu.edu/faculty-research/faculty-directory/profile.cshtml?id=JEMCMULL), I built worflows to automate end-toend processing of portfolio data to easily readable network graphs and a GUI application for customized visualization.
+Working under [Professor Jeff McMullin](https://kelley.iu.edu/faculty-research/faculty-directory/profile.cshtml?id=JEMCMULL), I built worflows to automate end-to-end processing of portfolio data to easily readable network graphs and a GUI application for customized visualization.
 
 ## Data Science Assocuate - ZS Associates (July 2018 - July 2019)
 As a Data Scientist in the healthcare consulting industry, I worked on several projects involving core technical skills as well as client facing time. The former was critical for me to learn the nuances of this field outside of technical innovation, and why the ability to explain, negotiate and exchange information with the client is just as important.
