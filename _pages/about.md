@@ -7,8 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-# Summary
-I'm an experienced Data Scientist specializing in using Natural Language technologies in healthcare data. Currently I work in healtcare consulting domain where I hold nearly 2 years of experience. I recently also graduated with a Masters in Data Science from Indiana University (May 2021). I have also worked for an additional 1.5 years in academic research and am a recippient of *Luddy Outstanding Research Award* from Indiana University. I have recently spent considerable time exploring Reinforcement Learning and utilizing the game-solving setup in real applications. I also like to make open source contributions for Deep Learning architectures and educational posts from time to time.\\
+
+I'm an experienced Data Scientist specializing in using Natural Language technologies in healthcare data. Currently I work in healtcare consulting domain where I hold close to **2 years of professional experience**. I recently also graduated with a Masters in Data Science from Indiana University (May 2021). I have also worked for an additional 1.5 years in academic research and am a recippient of *Luddy Outstanding Research Award* from Indiana University. I have recently spent considerable time exploring Reinforcement Learning and utilizing the game-solving setup in real applications. In my spare time, I like making open source contributions for Deep Learning architectures and educational posts from time to time.\\
+\\
 On a personal level I hold a passion for writing - both journalistic and creative and am open to learning opportunities in the same.I won't call myself a pro-gamer but I do have a decent gaming setup and enjoy the occasional Call-of-Duty sessions. My guilty pleasures are watching Wrestling (WWE,AEW,etc) and rewatching Rick And Morty episodes which I think is the best TV show ever made.
 
 
