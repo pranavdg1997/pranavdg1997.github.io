@@ -28,6 +28,7 @@ I worked on and led a small team to work an NSF funded project involving extract
 ### [Kelley School of business](https://kelley.iu.edu/) -Big Data and Quantitative trading 
 Working under [Professor Jeff McMullin](https://kelley.iu.edu/faculty-research/faculty-directory/profile.cshtml?id=JEMCMULL), I helped him scale his trading algorithm to PySpark based pipeline utilizing University AWS servers. I also built a GUI for easy use and visualizations. Refer to following for a brief demo of our app - 
 ![app_demo!](https://github.com/pranavdg1997/pranavdg1997.github.io/blob/master/images/zoom_0.gif)
+<br/><img src='https://github.com/pranavdg1997/pranavdg1997.github.io/blob/master/images/zoom_0.gif'>
 
 ## Data Science Associate - ZS Associates (July 2018 - July 2019)
 As a Data Scientist in the healthcare consulting industry, I worked on several projects involving core technical skills as well as some client facing time. The former was critical for me to learn the nuances of this field outside of technical innovation, and why the ability to explain, negotiate and exchange information with the client is just as important.
