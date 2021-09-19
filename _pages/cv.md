@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Curriculum vitae up date: 12/25/2020
+Curriculum vitae up date: 09/18/2021
 
 <br/><img src='/images/resume.png'>
 
