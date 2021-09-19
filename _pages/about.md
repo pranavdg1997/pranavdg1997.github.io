@@ -26,7 +26,7 @@ I worked on a Cognitive Science project, the basic objective of which is to reve
 I worked on and lead a small team to work an NSF funded project involving extraction causal relationships from Natural Language text. This project is part of a much larger initiative to generate structred information and narrative from large pieces of medical publications.
 
 ### [Kelley School of business](https://kelley.iu.edu/) -Big Data and Quantitative trading 
-Working under [Professor Jeff McMullin](https://kelley.iu.edu/faculty-research/faculty-directory/profile.cshtml?id=JEMCMULL), I helped him scale his trading algorithm to PySpark based pipeline utilizing University AWS servers. I also built a GUI for easy use and visualizations. Refer to [<ins>this<\ins>](https://github.com/pranavdg1997/pranavdg1997.github.io/blob/master/images/zoom_0.gif) link to preview a demo of the app.
+Working under [Professor Jeff McMullin](https://kelley.iu.edu/faculty-research/faculty-directory/profile.cshtml?id=JEMCMULL), I helped him scale his trading algorithm to PySpark based pipeline utilizing University AWS servers. I also built a GUI for easy use and visualizations. Refer to [<ins>this</ins>](https://github.com/pranavdg1997/pranavdg1997.github.io/blob/master/images/zoom_0.gif) link to preview a demo of the app.
 
 ## Data Science Associate - ZS Associates (July 2018 - July 2019)
 As a Data Scientist in the healthcare consulting industry, I worked on several projects involving core technical skills as well as some client facing time. The latter was critical for me to learn the nuances of this field outside of technical innovation, and why the ability to explain, negotiate and exchange information with the client is just as important.
