@@ -8,15 +8,22 @@ redirect_from:
   - /about.html
 ---
 
-I’m an experienced Data Scientist specializing in using Natural Language technologies in healthcare data. Currently I work in healthcare consulting domain where I hold close to **2 years of professional experience**. I recently graduated with a Masters in Data Science from Indiana University (May 2021). I have also worked for an additional 1.5 years in academic research and am a recipient of *Luddy Outstanding Research Award* from Indiana University. I have recently spent considerable time exploring Reinforcement Learning and utilizing the game-solving setup in real applications. I like making Open Source contributions for Deep Learning architectures and educational posts from time to time.
+I’m an experienced ML researcher and Applied Data Scientist, with 2+ years of professional experience and prominent publications (NeuRIPS, ACM, Intellisys). Currently I work as a Data Scientist at Sam's Club (Walmart Global Tech) specializing in causal inference projects. I graduated with a Masters in Data Science from Indiana University (May 2021). I have also worked for an additional 1.5 years in academic research and am a recipient of *Luddy Outstanding Research Award* from Indiana University. I have spent considerable time exploring Reinforcement Learning and utilizing the game-solving setup in real applications. I continue making Open Source contributions for Deep Learning architectures and educational posts from time to time.
 
-On a personal level I hold a passion for writing - both journalistic and creative and am open to learning opportunities in the same. I won’t call myself a pro-gamer but I do have a decent gaming setup and enjoy the occasional Call-of-Duty sessions. My guilty pleasures are watching Wrestling (WWE, AEW, etc.) and re-watching episodes of *Rick And Morty* which I think is the best TV show ever made.
+On a personal level I hold a passion for writing - both journalistic and creative and am open to learning opportunities in the same. I won’t call myself a pro-gamer but I do have a decent gaming setup and enjoy the occasional Call-of-Duty sessions. My guilty pleasures are watching Wrestling (WWE, AEW, etc.) and re-watching episodes of *Rick And Morty* which I think is the best TV show ever made. I reside in Dallas, TX and 
 
+**My Publications** 
+
+- [**&quot;Controlled-rearing studies of newborn chicks and deep neural networks&quot;**](https://arxiv.org/abs/2112.06106)at [**Shared Visual Representations in Human &amp; Machine Intelligence workshop, NeuRIPS 2021**](https://www.svrhm.com/) winning best paper award at the event.
+- [**&quot;Using Causality to Mine Sjögren&#39;s Syndrome related Factors from Medical Literature&quot;**](https://dl.acm.org/doi/10.1145/3530190.3534850)at ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS)
 
 # Positions (Chronologically):
 
-## Senior Data Science Associate - ZS Associates (May 2021 - Present)
-Continuing at my previous firm (see below position from July 2018 - July 2019), currently I specialize in projects involving Natural Language technlogies. My role now involves more client-facing time, direct project building and leading Data Science workflows.
+## Data Scientist - Walmart Global Tech Associates (January 2022 - Present)
+I have been working on end-to-end pipelines, complete with algorithmic thinking as well as modern CICD standards, primarily specializing in casual inference tasks.
+
+## Senior Data Science Associate - ZS Associates (May 2021 - December 2021)
+I continued contributing to projects I worked on previously (occupying client facing role) while also working on an interesting NLP project from scratch
 
 ##  Research Associate (January 2020 - May 2021)
 ### [Building a Mind Lab](http://buildingamind.com/) - Reinforcement Learning and Computer Vision
