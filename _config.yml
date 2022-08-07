@@ -5,7 +5,7 @@ locale                   : "en-US"
 title                    : "Portfolio"
 title_separator          : "-"
 name                     : "Pranav Gujarathi"
-description              : "Data and Applied Scientist. MS (2021) in Data Science from Indiana University. Bachelor's from IIT Roorkee"
+description              : "ML Researcher and Applied Data Scientist. MS (2021) in Data Science from Indiana University. Bachelor's from IIT Roorkee"
 url                      : "https://pranavdg1997.github.io"
 baseurl                  : "" 
 repository               : "pranavdg1997/pranavdg1997.github.io"
@@ -75,7 +75,7 @@ author:
   name             : "Pranav Gujarathi"
   avatar           : "headshot.jpg"
   bio              : "Data and Applied Scientist. MS (2021) in Data Science from Indiana University. Bachelor's from IIT Roorkee."
-  location         : "Los Angeles, CA"
+  location         : "Dallas, TX"
   employer         : 
   googlescholar    :
   email            : "gujarathi.pranav@gmail.com"
