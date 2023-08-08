@@ -20,7 +20,9 @@ On a personal level I hold a passion for writing - both journalistic and creativ
 # Positions (Chronologically):
 
 ## Data Scientist - Walmart Global Tech Associates (January 2022 - Present)
-I have been working on end-to-end pipelines, complete with algorithmic thinking as well as modern CICD standards, primarily specializing in casual inference tasks.
+At Sam's Club Tech, I was fortunate to be part of a team that embraced data science to enhance the company's progress. While there, I had a hand in developing an anomaly detection engine, which incorporated real-time user feedback, capturing anomalies with a rate exceeding 70%. I also contributed to the creation of a causal-inference forecast model that explained more than 80% variance and maintained a global error of under 5%. These efforts assisted in making sales of approximately $1.6 Billion more understandable and transparent.
+\\
+Additionally, I was involved in the establishment of a Rest API solution, working to optimize its runtime for Azure cloud deployment and ensuring alignment with best industry practices for CI/CD. By tapping into Generative AI and LLMs, I helped devise techniques that realized about 80% cost-effectiveness in data enhancement and curation. While I've been fortunate to gain diverse experiences in the field, I continue to learn and believe I can contribute meaningfully to roles centered around data science, where I hope to bridge theory with its real-world applications. I'm grateful for the opportunities I've had so far and am eager to further collaborate and learn in future endeavors.
 
 ## Senior Data Science Associate - ZS Associates (May 2021 - December 2021)
 I continued contributing to projects I worked on previously (occupying client facing role) while also working on an interesting NLP project from scratch
