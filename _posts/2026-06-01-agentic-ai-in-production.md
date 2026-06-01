@@ -163,19 +163,10 @@ The corrective is a phased rollout with real exit criteria:
 4. **Scale** — expand only after rework, override, and complaint rates are in tolerance
 5. **Optimize** — tune cost and containment, but never at the expense of quality metrics
 
-<div class="mermaid" style="background:#0d1b2a;padding:1.5em;border-radius:8px;margin:1.5em 0;">
-flowchart LR
-    A["Shadow Mode"] -->|quality gate| B["Narrow Cohort"]
-    B -->|override rate| C["Constrained Prod"]
-    C -->|rework rate| D["Scale"]
-    D -->|cost in tolerance| E["Optimize"]
-    style A fill:#162032,stroke:#00bcd4,color:#e0f7fa
-    style B fill:#162032,stroke:#00bcd4,color:#e0f7fa
-    style C fill:#162032,stroke:#26c6da,color:#e0f7fa
-    style D fill:#162032,stroke:#1de9b6,color:#e0f7fa
-    style E fill:#162032,stroke:#1de9b6,color:#e0f7fa
-</div>
-<p style="text-align:center;font-size:0.85em;color:#888;"><em>Phase the rollout — exit each gate on criteria, not on calendar.</em></p>
+<figure style="text-align:center;margin:1.5em 0;">
+  <img src="/images/blog/agentic-rollout-phases.png" alt="Flowchart: Shadow Mode → Narrow Cohort → Constrained Prod → Scale → Optimize, each connected by exit criteria gates" style="width:100%;border-radius:8px;">
+  <figcaption style="font-size:0.85em;color:#888;margin-top:0.4em;"><em>Phase the rollout — exit each gate on criteria, not on calendar.</em></figcaption>
+</figure>
 
 Don't expand from one phase to the next based on time. Expand based on exit criteria. The question at each gate: is what we built better than what we had?
 
@@ -274,6 +265,3 @@ And a final line worth keeping in mind as the regulatory landscape evolves aroun
 [^7]: McDonald's ended its AI-powered drive-through order-taking test with IBM. Reported by *CNBC* and *Restaurant Business*, June 2024.
 
 [^8]: Regulation (EU) 2024/1689 of the European Parliament and of the Council (EU AI Act). Entered into force August 2024; phased application through 2026. European Commission. GDPR Article 22 on automated individual decision-making also applies to many agentic deployments involving consequential decisions about individuals.
-
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-<script>mermaid.initialize({startOnLoad:true, theme:'dark'});</script>
