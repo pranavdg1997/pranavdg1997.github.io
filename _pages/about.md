@@ -8,111 +8,88 @@ redirect_from:
   - /about.html
 ---
 
-## About Me
+## Hi, I'm Pranav
 
-I’m a Generative AI & ML Engineer with **7+ years** of end‑to‑end AI/ML project ownership, specialized in Agentic AI platforms, large language models, RAG systems, and ML‑Ops at scale.  
-I currently lead the development of a **Generative AI‑augmented Prior Authorization platform** at Cigna Health, where I design agentic workflows that automate medical‑record extraction, streamline clinician decision‑support, and deliver roughly **80 % labor savings per case**.  
+I'm a **Generative AI & ML Engineer** based in Austin, TX — and I genuinely believe we're living through the most exciting moment in the history of computing. I've spent the last 8+ years turning that belief into production systems that actually move needles.
 
-Previously, I drove large‑scale Generative‑AI automation for Walmart Global Tech, saving **130,000 associate hours / week** and cutting attribute‑extraction costs by **80 %**.  
-I hold a Master’s in Data Science from Indiana University (Luddy Outstanding Research Award, 2021) and have a track record of translating research (e.g., reinforcement learning, causal inference) into production‑grade tools that drive measurable business impact.  
+Right now, I work as a **Senior AI Engineer at [Twin Health](https://www.twinhealth.com/)**, where I architect multi-agent AI platforms for personalized digital health. The work hits close to home in the most literal sense: the AI systems I build — ones that ingest real-time wearable data, interpret lab results, and deliver hyper-personalized diet and nutrition guidance — have contributed to a **37% Type 2 diabetes reversal rate** across our patient population. That's not a dashboard metric. That's people reclaiming their health.
 
-Beyond the lab, I write both journalistic and creative pieces and mentor young professionals to navigate the modern job market. Feel free to reach out if you’d like to join my community of job seekers.
+Before Twin Health, I spent over a year at **Cigna Health** building Generative AI into the Prior Authorization process — a notoriously slow, paper-heavy corner of healthcare that desperately needed agentic intelligence. And before that, I spent two years at **Walmart Global Tech**, where I built a voice/text-driven AI tool that saved **130,000 associate work hours every single week**, and a RAG-based system that cut attribute-extraction costs by **80%** with **24× faster turnaround**. Large-scale impact is something I've come to expect from this work.
+
+My path here wasn't strictly linear. I started as an Electrical Engineering undergraduate at **IIT Roorkee**, pivoted into data science at **Indiana University – Bloomington** (where I earned a Master's and the Luddy Outstanding Research Award), and along the way published research at **NeurIPS** (Best Paper) and **ACM COMPASS**. More recently, I completed an **MBA in Entrepreneurship** from University of the Cumberlands — because building great AI isn't just an engineering challenge, it's a product and people challenge too.
 
 ---
 
-## My Publications
+## Publications
 
-I have published two research papers that have been presented at major AI and healthcare conferences.
+I've had the privilege of presenting research at some of AI's top venues.
 
-- **“Controlled‑rearing studies of newborn chicks and deep neural networks”**  
-  Presented at the **Shared Visual Representations in Human & Machine Intelligence workshop, NeuRIPS 2021** – *Best Paper* award  
+- **"Controlled-rearing studies of newborn chicks and deep neural networks"**  
+  *Shared Visual Representations in Human & Machine Intelligence workshop, NeurIPS 2021* — **Best Paper Award**  
   [arXiv](https://arxiv.org/abs/2112.06106) · [Workshop](https://www.svrhm.com/)
 
-- **“Using Causality to Mine Sjögren’s Syndrome related Factors from Medical Literature”**  
-  Presented at the **ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS)**  
+- **"Using Causality to Mine Sjögren's Syndrome related Factors from Medical Literature"**  
+  *ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS)*  
   [DOI](https://dl.acm.org/doi/10.1145/3530190.3534850)
+
+- **Luddy Outstanding Research Award**, Indiana University – May 2021
 
 ---
 
-## Positions (Chronologically)
+## Experience
 
-### Senior AI Engineer – Cigna Health  
-**September 2024 – Present**  
-- Spearheading the development of a Generative AI‑augmented Prior Authorization platform, focusing on agentic AI systems, RAG pipelines, seamless platform integration, and robust ML‑Ops pipelines.  
-- Orchestrating cross‑functional teams to deliver scalable AI solutions for internal AI platforms, ensuring high performance, reliability, and compliance in medical‑care workflows.
+### Senior AI Engineer — Twin Health
+**Austin, TX · January 2026 – Present**
+- Architecting a production-grade multi-agent AI platform for personalized digital health — specialized agents deliver end-to-end diet, nutrition, and recipe recommendations, contributing to **37% Type 2 diabetes reversal** across the patient population.
+- Engineering a real-time continuous health monitoring agent that ingests lab results and wearable biosensor streams to surface personalized clinical insights and enable proactive patient intervention.
 
-### AI Engineer – Walmart Global Tech  
-**October 2023 – August 2024**  
-- Developed a voice/text‑driven Generative‑AI automation solution that removes the learning curve for non‑programmers, saving **130,000 associate work hours per week**.  
-- Delivered an end‑to‑end RAG‑based attribute extraction system that achieved **80 % cost savings** and **24× faster turnaround** compared to legacy manual annotation.  
-- Led ML‑engineering initiatives (Docker, Kubernetes, Azure‑based API deployment) enforcing quality, reliability, and security standards.
+### Senior AI Engineer — Cigna Health
+**Dallas, TX · September 2024 – December 2025**
+- Spearheaded a Generative AI-augmented Prior Authorization platform built on agentic AI systems, robust ML-Ops pipelines, and seamless clinical workflow integration.
+- Led cross-functional teams delivering compliant, high-reliability AI solutions across medical care workflows.
 
-### Data Scientist – Walmart Global Tech  
-**January 2022 – October 2023**  
-- Deployed a large‑scale anomaly‑detection engine with a **> 70 % capture rate** and real‑time feedback loop.  
-- Contributed to a novel causal‑inference forecast model explaining **> 80 %** of variance with < 5 % global error, underpinning **$1.6 B** of sales analysis.  
-- Built REST‑API solutions on Azure with CI/CD best practices; PoC’ed Gen‑AI use‑cases such as automated competitor‑price mining and text‑based forecast dashboards.
+### AI Engineer — Walmart Global Tech
+**Dallas, TX · October 2023 – August 2024**
+- Built a voice/text-driven Generative AI tool for exploratory data analysis — eliminating legacy dashboards and saving **130,000 associate work hours per week**.
+- Delivered an end-to-end RAG-based attribute extraction and competitor analysis system achieving **80% cost savings** and **24× faster turnaround** vs. manual methods.
+- Led ML engineering for containerized API deployments via Docker and Kubernetes.
 
-### Data Science Associate – ZS Associates  
-**June 2018 – December 2021**  
-- Deployed a cross‑platform product that received favorable client feedback and improved performance.  
-- Implemented a Natural Language Inference pipeline using transformer models to extract domain‑relevant inferences from news articles and publications.  
-- Launched an ML‑based marketing‑strategy planner that increased projected ROI by **60 %** through multivariate time‑series and linear‑optimization techniques.
+### Data Scientist — Walmart Global Tech
+**Dallas, TX · January 2022 – October 2023**
+- Deployed a large-scale anomaly detection engine with real-time feedback, achieving **> 70% capture rate**.
+- Contributed to a novel causal-inference forecast model explaining **> 80% of variance** with < 5% global error, underpinning **~$1.6B** in sales analysis.
+- Built and deployed REST API solutions on Azure with CI/CD best practices; ran Gen AI PoCs including automated competitor price mining and a text-based forecasting interface.
 
-### Research Engineer – Indiana University – Bloomington  
-**January 2020 – May 2021**  
-- Built “Mind Lab”: pipelines for NSF‑funded research in computer vision and deep reinforcement learning.  
-- Conducted NLP research under Prof. Sunandan Chakraborty, advancing end‑to‑end model architectures.  
-- Developed an MLOps pipeline for the Kelley School of Business, from PoC to GUI dashboard using big‑data libraries and cloud‑based parallel computing.
+### Data Science Associate — ZS Associates
+**Los Angeles, CA · June 2018 – December 2021**
+- Implemented an NLP pipeline using deep learning and transformer models to extract domain-relevant inferences from news and publications — deployed as a cross-platform product with strong client reception.
+- Launched an ML-based marketing strategy solution using multivariate time-series models and linear optimization, projecting **60% improvement** in target reach and ROI.
+
+### Research Engineer — Indiana University – Bloomington
+**Bloomington, IN · January 2020 – May 2021**
+- Mind Lab (NSF-funded): Designed and implemented Computer Vision and Deep Reinforcement Learning pipelines for behavioral research under Prof. Justin Wood.
+- IUPUI Data Lab: Conducted NLP research from ideation to publication under Prof. Sunandan Chakraborty.
+- Kelley School of Business: Deployed an end-to-end MLOps pipeline — from PoC to GUI dashboard — using big-data libraries and cloud-based parallel computing.
 
 ---
 
 ## Technical Skills
 
-- **Programming & ML Frameworks** – Python (PyTorch, TensorFlow, NumPy, Pandas, scikit‑learn), Hugging Face Transformers, Spark, SQL, Git.  
-- **LLM & RAG Systems** – Open‑source LLMs (LLAMA2, Falcon, Mistral, GPT‑style APIs), Retrieval‑Augmented Generation pipelines, prompt engineering.  
-- **ML‑Ops & Infrastructure** – Docker, Kubernetes, Azure (App Services, AKS, Azure ML), CI/CD pipelines, MLOps best practices.  
-- **Data Engineering & Analytics** – Spark, Databricks, SQL, time‑series modeling, statistical analysis, optimization.  
-- **Domain Expertise** – NLP, Computer Vision, Reinforcement Learning, causal inference, generative AI.
+- **Programming** — Python (Expert), C/C++, MySQL
+- **ML & AI Frameworks** — PyTorch, TensorFlow, LangChain, LlamaIndex, Hugging Face Transformers
+- **Generative AI** — Multi-agent systems, RAG pipelines, LLM-Ops, prompt engineering
+- **DevOps & Deployment** — Docker, Kubernetes, CI/CD, Git
+- **Cloud Platforms** — AWS, Microsoft Azure, GCP
+- **Data Engineering** — Spark, Databricks, SQL, time-series modeling, statistical analysis
 
 ---
 
-## Projects
+## Beyond the Work
 
-### Agentic AI Solution for Prior Authorization  
-*2024 – Present*  
-- Automated extraction of patient histories, claim forms, and clinical notes from faxes and unstructured sources via OCR and Python workflows.  
-- Built a RAG pipeline powered by LLMs to provide clinicians with tentative answers to prior‑authorization criteria, preserving a human‑in‑the‑loop for final approval.  
-- Standardized AI output format through prompt engineering, enabling production‑grade deployment and consistent reasoning.  
-- Achieved **≈ 80 % labor savings** per case.
+A few things that keep me curious and grounded outside of building AI:
 
-### Agentic Platform for Tabular Data Analysis  
-*2023 – 2024*  
-- Created a chatbot‑driven interface that replaces traditional dashboards; users obtain calculations, forecasts, graphs, or tabular views with natural‑language queries.  
-- Developed an AI agent capable of generating any code (via LLMs) to perform simple or complex analysis on tabular data.  
-- Deployed on Walmart’s internal cloud (AWS‑like) using Python, SQL, and pandas.  
-- Leveraged prompt engineering to improve query accuracy and encode domain knowledge.
+I'm genuinely excited about **AI in legal work** — the legal system is one of the most access-constrained domains in society, and intelligent automation has an enormous opportunity to level the playing field. Similarly, I think deeply about **AI for social good and medical literacy**: the same technology I use to build clinical tools could help millions of people understand their own health, navigate complex systems, and make better decisions.
 
-### Sam’s Club Time‑Series Forecasting  
-*2022 – 2023*  
-- Forecasted Sam’s Club sales monthly for 36 months using promotions, macro‑economics, marketing, memberships, etc.  
-- Performed extensive data engineering with Spark, SQL, and pandas.  
-- Built and deployed multiple ML models that first forecast input features and then predict sales; served models via a REST API on Azure.  
-- Developed a novel explainable‑AI algorithm (patent pending) using linear optimization to quantify the impact of individual driving factors.
+On a lighter note — I'm a **tennis** player who enjoys the mental chess of the game as much as the physical workout. I'm also a dedicated **barbecue enthusiast** (low-and-slow is the only way), and I follow the **EV space** closely, fascinated by how electrification is reshaping mobility, energy, and urban design all at once.
 
-### AI/ML Research Projects  
-*2019 – 2021*  
-- NSF‑funded research in computer vision and deep reinforcement learning.  
-- NLP model architecture research.  
-- MLOps pipeline deployment with big‑data libraries.
-
-### NeuRIPS 2021 Best Paper  
-*2021*  
-- Published “Controlled‑rearing studies of newborn chicks and deep neural networks” at the Shared Visual Representations workshop, NeuRIPS 2021.  
-- Awarded Best Paper.  
-- Technologies: PyTorch, Computer Vision, Reinforcement Learning.
-
-
-
-
-
+Feel free to reach out — whether it's about AI, career journeys, or the perfect brisket temperature. I love a good conversation.

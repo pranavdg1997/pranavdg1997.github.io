@@ -6,10 +6,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-To download my CV from github, please [<ins>click here</ins>](https://pranavdg-cv.tiiny.site/)
 
-Curriculum vitae up date: 09/23/2025
+To download my CV, please [<ins>click here</ins>](/files/Pranav_Gujarathi_Resume.pdf)
 
-
-
-
+*Last updated: June 2026*

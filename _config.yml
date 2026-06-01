@@ -5,7 +5,7 @@ locale                   : "en-US"
 title                    : "Portfolio"
 title_separator          : "-"
 name                     : "Pranav Gujarathi"
-description              : "AI Evangelist and Applied Data Scientist. MS (2021) in Data Science from Indiana University. Bachelor's from IIT Roorkee"
+description              : "Generative AI & ML Engineer specializing in multi-agent systems, RAG pipelines, and digital health AI. MS Data Science, Indiana University."
 url                      : "https://pranavdg1997.github.io"
 baseurl                  : "" 
 repository               : "pranavdg1997/pranavdg1997.github.io"
@@ -74,11 +74,11 @@ analytics:
 author:
   name             : "Pranav Gujarathi"
   avatar           : "headshot.jpg"
-  bio              : "Data and Applied Scientist. MS (2021) in Data Science from Indiana University. Bachelor's from IIT Roorkee."
-  location         : "Dallas, TX"
-  employer         : 
+  bio              : "Generative AI & ML Engineer. Building multi-agent AI for digital health at Twin Health. MS Data Science, Indiana University · IIT Roorkee."
+  location         : "Austin, TX"
+  employer         :
   googlescholar    :
-  email            : "gujarathi.pranav@gmail.com"
+  email            : "pranavdg1997@gmail.com"
   uri              : 
   bitbucket        :
   codepen          :
@@ -91,14 +91,14 @@ author:
   keybase          :
   instagram        : 
   lastfm           :
-  linkedin         :
-  orcid            : 
+  linkedin         : "pranav-gujarathi"
+  orcid            :
   pinterest        :
   soundcloud       :
   stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "@pdg1997"
+  twitter          :
   vine             :
   weibo            :
   xing             :
