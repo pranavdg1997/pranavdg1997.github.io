@@ -24,6 +24,11 @@ That's the delegation problem. And it's the problem this post is about.
 
 ---
 
+<figure style="text-align:center">
+  <img src="/images/blog/agentic-slide-act.png" alt="Talk slide showing the four pillars: Act, Damage, Controls, Ownership" style="width:100%;border-radius:6px;margin:1em 0;">
+  <figcaption style="font-size:0.85em;color:#888;margin-top:0.4em;"><em>The four pillars of the delegation problem: Act, Damage, Controls, Ownership — from the original talk.</em></figcaption>
+</figure>
+
 ## What "Agentic" Actually Means (and Four Misconceptions)
 
 Before we can talk about production, we need to agree on what we're shipping.
@@ -46,6 +51,11 @@ A more useful frame than "how smart is this agent?" is four dials:
 - **Reversibility** — can you undo what it does?
 - **Context** — is it sandboxed, or does it touch live state?
 
+<figure style="text-align:center;margin:1.5em 0;">
+  <img src="/images/blog/agentic-blast-radius.png" alt="Concentric circles showing blast radius: advisory/sandboxed at center, irreversible/regulated requiring human sign-off at the edge" style="max-width:380px;border-radius:8px;">
+  <figcaption style="font-size:0.85em;color:#888;margin-top:0.4em;"><em>Blast radius as concentric rings. The outermost ring — irreversible, regulated actions — is where human gates stop being optional.</em></figcaption>
+</figure>
+
 Classify the job on all four dials *before* you build. The dial positions tell you your blast radius, your oversight requirements, and your rollout pace.
 
 ---
@@ -56,7 +66,14 @@ Cast your mind back to late 2022. ChatGPT launched. The capability jump was real
 
 Then the incident reports started landing.
 
-A Chevrolet dealership deployed a ChatGPT-powered chatbot that got prompt-injected into "agreeing" to sell a Tahoe for $1.[^2] Viral. The model negotiated — because nobody put the transactional rules in hard logic. The NYC government's MyCity chatbot was audited and found to give inconsistent, sometimes unlawful answers — with external reporting, not internal instrumentation, surfacing the failures.[^3] Klarna celebrated replacing the equivalent of ~700 agents' worth of work with AI, then publicly rebalanced toward human support when quality and customer trust started sending the bill.[^5]
+A Chevrolet dealership deployed a ChatGPT-powered chatbot that got prompt-injected into "agreeing" to sell a Tahoe for $1.[^2] The model negotiated — because nobody put the transactional rules in hard logic.
+
+<figure style="text-align:center;margin:1.5em 0;">
+  <img src="/images/blog/chevy-tahoe-1dollar.png" alt="Chevrolet Tahoe with a $1 special price sticker — the prompt injection incident" style="max-width:300px;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,0.25);">
+  <figcaption style="font-size:0.85em;color:#888;margin-top:0.4em;"><em>Viral. No hard transactional rules, no guardrails outside the context window — just a chatbot that could negotiate.</em></figcaption>
+</figure>
+
+The NYC government's MyCity chatbot was audited and found to give inconsistent, sometimes unlawful answers — with external reporting, not internal instrumentation, surfacing the failures.[^3] Klarna celebrated replacing the equivalent of ~700 agents' worth of work with AI, then publicly rebalanced toward human support when quality and customer trust started sending the bill.[^5]
 
 The pattern in all of these: **authority was handed out faster than control was built.**
 
@@ -65,6 +82,10 @@ The "agent" label had stretched to cover everything from a prompt around a knowl
 ---
 
 ## Build vs. Buy: Own the Harness, Rent the Plumbing
+
+<figure style="text-align:center">
+  <img src="/images/blog/agentic-slide-controls-build.png" alt="Talk slide: Controls — Build vs. Buy" style="width:100%;border-radius:6px;margin:0 0 1.5em 0;">
+</figure>
 
 Once you've decided to build, you face a strategic question that most teams get subtly wrong.
 
@@ -91,6 +112,10 @@ Under healthcare rules at Cigna, a vendor that hides the audit trail isn't a pro
 
 ## Observability: If You Can't Replay It, You Can't Run It
 
+<figure style="text-align:center">
+  <img src="/images/blog/agentic-slide-controls-obs.png" alt="Talk slide: Controls — Observability" style="width:100%;border-radius:6px;margin:0 0 1.5em 0;">
+</figure>
+
 This is the section that sounds like backend hygiene but is actually a product requirement.
 
 Harrison Chase, CEO of LangChain, has put it simply: *"The harness is the most important thing."* I'd add a corollary: if you can't replay what the agent did, you cannot run that agent in production. Not safely. Not responsibly.
@@ -116,6 +141,10 @@ Instrument these from day one, not after the first production incident.
 
 ## Scalability: Scale Amplifies Whatever You Built — Including the Bugs
 
+<figure style="text-align:center">
+  <img src="/images/blog/agentic-slide-damage.png" alt="Talk slide: Damage — Scalability and blast radius" style="width:100%;border-radius:6px;margin:0 0 1.5em 0;">
+</figure>
+
 Here's an uncomfortable truth that took me a while to articulate clearly: **scaling an agent doesn't multiply throughput. It multiplies error modes.**
 
 The Klarna story is the canonical example. In February 2024, the company announced its AI assistant was handling two-thirds of all customer service chats — the equivalent of 700 full-time agents.[^5] The business press celebrated. Then, over the following months, Klarna publicly rebalanced — reinvesting in human support, acknowledging that the efficiency focus had gone too far and that customer trust and quality required visible human presence.[^5]
@@ -133,6 +162,20 @@ The corrective is a phased rollout with real exit criteria:
 3. **Constrained production** — live, but agent actions are limited to reversible operations only
 4. **Scale** — expand only after rework, override, and complaint rates are in tolerance
 5. **Optimize** — tune cost and containment, but never at the expense of quality metrics
+
+<div class="mermaid" style="background:#0d1b2a;padding:1.5em;border-radius:8px;margin:1.5em 0;">
+flowchart LR
+    A["Shadow Mode"] -->|quality gate| B["Narrow Cohort"]
+    B -->|override rate| C["Constrained Prod"]
+    C -->|rework rate| D["Scale"]
+    D -->|cost in tolerance| E["Optimize"]
+    style A fill:#162032,stroke:#00bcd4,color:#e0f7fa
+    style B fill:#162032,stroke:#00bcd4,color:#e0f7fa
+    style C fill:#162032,stroke:#26c6da,color:#e0f7fa
+    style D fill:#162032,stroke:#1de9b6,color:#e0f7fa
+    style E fill:#162032,stroke:#1de9b6,color:#e0f7fa
+</div>
+<p style="text-align:center;font-size:0.85em;color:#888;"><em>Phase the rollout — exit each gate on criteria, not on calendar.</em></p>
 
 Don't expand from one phase to the next based on time. Expand based on exit criteria. The question at each gate: is what we built better than what we had?
 
@@ -157,6 +200,10 @@ And don't wait for regulatory clarity: the EU AI Act (Regulation (EU) 2024/1689)
 ---
 
 ## Team Dynamics: An Agent Is an Org Change Wearing an API
+
+<figure style="text-align:center">
+  <img src="/images/blog/agentic-slide-ownership.png" alt="Talk slide: Ownership — Team Dynamics" style="width:100%;border-radius:6px;margin:0 0 1.5em 0;">
+</figure>
 
 The failure mode nobody talks about enough: deploying an agent without deciding who owns it.
 
@@ -227,3 +274,6 @@ And a final line worth keeping in mind as the regulatory landscape evolves aroun
 [^7]: McDonald's ended its AI-powered drive-through order-taking test with IBM. Reported by *CNBC* and *Restaurant Business*, June 2024.
 
 [^8]: Regulation (EU) 2024/1689 of the European Parliament and of the Council (EU AI Act). Entered into force August 2024; phased application through 2026. European Commission. GDPR Article 22 on automated individual decision-making also applies to many agentic deployments involving consequential decisions about individuals.
+
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true, theme:'dark'});</script>
